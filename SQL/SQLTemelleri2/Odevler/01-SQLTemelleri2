@@ -1,0 +1,19 @@
+SELECT title,length FROM film
+WHERE title ~~* '%n' 
+ORDER BY length DESC
+LIMIT 5;
+-----------------------------------------
+SELECT title,length 
+FROM film
+WHERE title ~~* '%n'
+ORDER BY length
+OFFSET 6
+LIMIT 5;
+-------------------------------------
+SELECT last_name,store_id 
+FROM customer
+WHERE store_id = 1
+LIMIT 4;
+-----------------------------------------
+
+
