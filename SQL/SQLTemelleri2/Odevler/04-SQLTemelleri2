@@ -1,0 +1,50 @@
+/*
+UPDATE employee
+SET name='JQ'
+WHERE id=3
+RETURNING *;
+*/
+/*UPDATE employee
+SET name='FURKAN',
+ 	birthday = '1998-03-26',
+	email='bfqmeydan@bfmeydan.com'
+WHERE id=41
+RETURNING *;
+*/
+/*
+UPDATE employee
+SET name='UPDATE',
+ 	birthday = '1998-03-26',
+	email='update@bfmeydan.com'
+WHERE id=42
+RETURNING *;
+*/
+/*
+UPDATE employee
+SET name='QQ',
+ 	birthday = '1999-1-6',
+	email='q@q.com'
+WHERE id=40
+RETURNING *;
+*/
+/*
+UPDATE employee
+SET name='qwe',
+ 	birthday = '1998-03-26',
+	email='qwe@qwe.com'
+WHERE id=39
+RETURNING *;
+*/
+/*
+DELETE FROM employee
+WHERE id=15;
+DELETE FROM employee
+WHERE id=16;
+DELETE FROM employee
+WHERE id=17;
+DELETE FROM employee
+WHERE id=18;
+DELETE FROM employee
+WHERE id=19;
+*/
+
